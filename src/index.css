@@ -1,13 +1,121 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.containerLetterCard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  height: 300px;
+  width: 500px;
+}
+
+.LetterCard {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.LetterCard p {
+  display: flex;
+  font-size: 26px;
+  /* margin-top: 6px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.LetterCheck {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: black;
+  cursor: pointer;
+}
+.LetterCheck p {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.ContainerWord {
+  display: flex;
+  gap: 8px;
+  width: 50px;
+  height: 50px;
+  border-bottom: 1px solid black;
+  margin-top: -40px;
+}
+
+.WordDiv {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.globalContainer {
+  display: flex;
+}
+
+.word {
+  display: flex;
+  gap: 8px;
+}
+
+.title {
+  align-items: center;
+  margin-top: 46px;
+  font-weight: 600;
+}
+
+.wordLetter {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.images {
+  height: 500px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.appContaier {
+  display: flex;
+  justify-content: center;
+}
+
+.GameOver {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+}
+
+.button {
+  height: 60px;
+  width: 180px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 26px;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 10px;
 }
